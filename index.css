@@ -1,0 +1,49 @@
+body {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+#canvas {
+    background-color: rgb(214, 184, 144);
+    overflow:auto;
+    float: left;
+    border: 5px solid pink;
+}
+.buttons {
+    display:flex;
+    float: left;
+    flex-direction: column;
+}
+.button {
+    width: 80px;
+    margin: 4px;
+
+    background-color: rgb(214, 184, 144);
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 4px;
+}
+.terminal-div {
+    display: flex;
+    flex-direction: column;
+}
+.terminal {
+    float: right;
+    background-color:rgb(214, 184, 144);
+    color:black;
+    font-size:18px;
+    border: 5px solid pink;
+}
+.history {
+    float: right;
+    background-color:rgb(214, 184, 144);
+    color:black;
+    font-size:14px;
+    margin-top:10px;
+    padding:10px;
+    border: 5px solid pink;
+}
